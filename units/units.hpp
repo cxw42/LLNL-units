@@ -1981,6 +1981,10 @@ namespace detail {
         double testLeadingNumber(const std::string& test, size_t& index);
         // generate a number from words
         double testNumericalWords(const std::string& test, size_t& index);
+#ifdef EXTRA_UNIT_STANDARDS
+		// get the raw array for testing the r20 database
+		const void *r20rawData(size_t &array_size);
+#endif
     }  // namespace testing
 }  // namespace detail
 
