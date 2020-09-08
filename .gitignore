@@ -1,1 +1,17 @@
 build*/
+
+# autoconf
+.deps/
+.dirstamp
+*.stamp
+
+# objects
+*.a
+*.exe
+*.lib
+*.o
+*.obj
+
+# lcov
+*.gcda
+*.gcno
